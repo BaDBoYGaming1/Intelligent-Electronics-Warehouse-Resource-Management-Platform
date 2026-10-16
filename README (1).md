@@ -235,15 +235,3 @@ Use an isolated test database and never run destructive tests against production
 - **Testing:** Python testing framework
 - **Version Control:** Git and GitHub
 
-## Security Notes
-
-1. Never commit `.env`, database passwords, secret keys, or private credentials.
-2. Keep `.env.example` free of real secrets.
-3. Validate permissions on the server for every protected operation.
-4. Use password hashing, CSRF protection, and safe file-upload validation.
-5. Use transactions and concurrency controls for stock and order changes.
-6. Keep production secrets and database credentials outside the source code.
-
-## Important Note
-
-This is a recommended project structure, not a claim that every listed file already exists in the current implementation. Keep filenames consistent with the actual codebase, and only include modules that are implemented or intentionally planned.
